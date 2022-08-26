@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Survive the Dungeon</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  </head>
+
+  <body>
+    <header>
+        <h1>Can you make it out in time?</h1>
+        <div class="timer">Time: <span id="time">0</span></div>
+    </header>
+
+    <main>
+        <section id="begin-screen" class="begin">
+          <button id="begin">Enter the Dungeon</button>
+        </section>
+
+        <section id="questions"></section>
+
+        <section id="end-screen" class="hide">
+            <h2>Score: <span id="score"></span> </h2>
+            <form> Submit initials: <input type="text" id="initials" max="3"/></form>
+            <button id="submit">Submit</button>
+        </section>
+
+        <section class="hide">
+            <button>High Scores</button>
+            <button>Reset Score</button>
+        </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+
+  </body>
+</html>
